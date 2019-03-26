@@ -15,7 +15,9 @@ public class DeptConsumerController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";.
+    //修改成通过微服务名获得
+    private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-DEPT";
 
     //(请求地址，请求参数，返回对象)
 

@@ -11,10 +11,13 @@
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7003" />
-        <module name="microservicecluodproviderdept8001" />
+        <module name="microservicecloudproviderdept8001" />
+        <module name="microservicecloudproviderdept8002" />
+        <module name="microservicecloudproviderdept8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="microservicecloud-provider-dept-8001" target="1.8" />
       <module name="test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
