@@ -17,6 +17,7 @@
         <module>microservicecloud-provider-dept-8001</module>
         <module>microservicecloud-provider-dept-8002</module>
         <module>microservicecloud-provider-dept-8003</module>
+        <module>mircoservicecloud-consumer-dept-feign</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

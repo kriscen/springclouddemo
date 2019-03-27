@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/microservicecloud-api" />
     <file type="web" url="file://$PROJECT_DIR$/microservicecluod-provider-dept-8001" />
     <file type="web" url="file://$PROJECT_DIR$/test" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
