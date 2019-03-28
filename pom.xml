@@ -27,7 +27,10 @@
         <module>microservicecloud-consumer-dept-feign</module>
         <!--hystrix-dashboard监控-->
         <module>microservicecloud-consumer-hystrix-dashboard</module>
+        <!--zuul网关-->
         <module>microservicecloud-zuul-geteway-9527</module>
+        <!--config配置中心服务端-->
+        <module>microservicecloud-config-3344</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
