@@ -9,16 +9,25 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <!--公共api-->
         <module>microservicecloud-api</module>
-        <module>microservicecloud-consumer-dept-80</module>
+        <!--eureka服务端-->
         <module>microservicecloud-eureka-7001</module>
         <module>microservicecloud-eureka-7002</module>
         <module>microservicecloud-eureka-7003</module>
+        <!--未加熔断器的集群服务提供者-->
         <module>microservicecloud-provider-dept-8001</module>
         <module>microservicecloud-provider-dept-8002</module>
         <module>microservicecloud-provider-dept-8003</module>
-        <module>mircoservicecloud-consumer-dept-feign</module>
+        <!--使用熔断器的服务提供者-->
         <module>microservicecloud-provider-dept-hystrix-8001</module>
+        <!--未使用负载均衡的消费者-->
+        <module>microservicecloud-consumer-dept-80</module>
+        <!--使用feign负载均衡的消费者-->
+        <module>microservicecloud-consumer-dept-feign</module>
+        <!--hystrix-dashboard监控-->
+        <module>microservicecloud-consumer-hystrix-dashboard</module>
+        <module>microservicecloud-zuul-geteway-9527</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

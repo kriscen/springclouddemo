@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicecloudapi" />
         <module name="microservicecloudconsumerdept80" />
+        <module name="microservicecloudconsumerdeptfeign" />
+        <module name="microservicecloudconsumerhystrixdashboard" />
         <module name="microservicecloudeureka7001" />
         <module name="microservicecloudeureka7002" />
         <module name="microservicecloudeureka7003" />
@@ -15,11 +17,12 @@
         <module name="microservicecloudproviderdept8002" />
         <module name="microservicecloudproviderdept8003" />
         <module name="microservicecloudproviderdepthystrix8001" />
-        <module name="mircoservicecloudconsumerdeptfeign" />
+        <module name="microservicecloudzuulgeteway9527" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="microservicecloud-provider-dept-8001" target="1.8" />
+      <module name="mircoservicecloudconsumerdeptfeign" target="1.8" />
       <module name="test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
