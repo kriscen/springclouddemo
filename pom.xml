@@ -31,6 +31,7 @@
         <module>microservicecloud-zuul-geteway-9527</module>
         <!--config配置中心服务端-->
         <module>microservicecloud-config-3344</module>
+        <module>microservicecloud-config-client-3355</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
