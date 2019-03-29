@@ -1,5 +1,5 @@
 # springclouddemo
-![Spring Cloud](E:\idea\workspace\springclouddemo\xmindResource\SpringCloud.png)
+![Spring Cloud](./xmindResource/SpringCloud.png)
 
 ### springcloud的demo，配置中心部分未完善。不影响微服务测试。
 
